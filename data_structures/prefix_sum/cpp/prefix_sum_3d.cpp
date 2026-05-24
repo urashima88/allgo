@@ -31,6 +31,7 @@ vector<vector<vector<long long>>> buildPrefixSum3D(const vector<vector<vector<in
     return pref;
 }
 
+// left borders - inclusive, right - exclusive
 long long queryPrefixSum3D(
     const vector<vector<vector<long long>>>& pref,
     int lx, int ly, int lz,

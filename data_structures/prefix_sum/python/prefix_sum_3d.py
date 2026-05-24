@@ -20,6 +20,7 @@ def build_prefix_sum_3d(a: List[List[List[int]]]) -> List[List[List[int]]]:
                     + pref[i-1][j-1][k-1])
     return pref
 
+# left borders - inclusive, right - exclusive
 def query_prefix_sum_3d(
     pref: List[List[List[int]]],
     lx: int, ly: int, lz: int,
